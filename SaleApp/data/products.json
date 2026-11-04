@@ -2,42 +2,42 @@
   {
     "id": 1,
     "name": "Iphone 16",
-    "price": "hàng tặng không bán",
+    "price": "300000",
     "cate_id": 1,
     "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSFB798F2ydh-0MBqZ9g1dG-VG8pruqWUt1Jsbd4BLsINsHGsMvV88lnsWcAyYugv4jfeH6Wjxi2Li0xRiNma2ddwbAD9FhngHSfkiUL-y3AkmFWjEze6SwybBGsSu8e2PRcrU0g01SFQ&usqp=CAc"
   },
   {
     "id": 2,
-    "name": "Iphone 16",
-    "price": "hàng tặng không bán",
+    "name": "Iphone 17",
+    "price": "400000",
     "cate_id": 1,
     "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSFB798F2ydh-0MBqZ9g1dG-VG8pruqWUt1Jsbd4BLsINsHGsMvV88lnsWcAyYugv4jfeH6Wjxi2Li0xRiNma2ddwbAD9FhngHSfkiUL-y3AkmFWjEze6SwybBGsSu8e2PRcrU0g01SFQ&usqp=CAc"
   },
   {
     "id": 3,
-    "name": "Iphone 16",
-    "price": "hàng tặng không bán",
+    "name": "Iphone 12",
+    "price": "1000000",
     "cate_id": 1,
     "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSFB798F2ydh-0MBqZ9g1dG-VG8pruqWUt1Jsbd4BLsINsHGsMvV88lnsWcAyYugv4jfeH6Wjxi2Li0xRiNma2ddwbAD9FhngHSfkiUL-y3AkmFWjEze6SwybBGsSu8e2PRcrU0g01SFQ&usqp=CAc"
   },
   {
     "id": 4,
     "name": "Tablet 2",
-    "price": "hàng tặng không bán",
+    "price": "900000",
     "cate_id": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn5TpQp3f-laqSo7LeCZr139m5lOdm2k5bUbZU8XHtUg&s=10"
   },
   {
     "id": 5,
     "name": "Tablet 1",
-    "price": "hàng tặng không bán",
+    "price": "700000",
     "cate_id": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb4wMKcZskt8e9-ePQbZM7C0j6Jmq6MQfMOgWvIokYxA&s=10"
   },
   {
     "id": 6,
     "name": "Laptop gaming",
-    "price": "hàng tặng không bán",
+    "price": "350000",
     "cate_id": 3,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdr4xchrq02B0dn2IaxBdXSCth5HdYLwnF4poAD40u_A&s=10"
   }

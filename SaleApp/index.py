@@ -1,8 +1,8 @@
 from itertools import product
-
 from flask import Flask, render_template, request
+from flask_sqlalchemy import SQLAlchemy
 import  dao
-app=Flask(__name__)
+from SaleApp import  app
 
 @app.route("/")
 def index():
@@ -13,5 +13,10 @@ def index():
 @app.route("/product/<int:id>")
 def details(id):
     return render_template("product-details.html")
+@app.context_processor
+def common_attribute():
+    return  {
+        "cate":dao.load_categories()
+    }
 if __name__=="__main__":
-    app.run(debug=True,port=5001)
+    app.run(debug=True)
