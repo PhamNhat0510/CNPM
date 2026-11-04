@@ -4,12 +4,14 @@ import json
 
 from SaleApp import app,db
 
-class Category(db.Model):
-    id=Column(Integer,primary_key=True, autoincrement=True)
-    name=Column(String(250),nullable=True,unique=True)
-    products=relationship('Product',backref='category',lazy=True)
+class Base(db.Model):
+    __abstract__ = True
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    name = Column(String(250), nullable=True, unique=True)
     def __str__(self):
         return self.name
+class Category(Base):
+    products=relationship('Product',backref='category',lazy=True)
 
 class Product(db.Model):
     id = Column(Integer, primary_key=True, autoincrement=True)
@@ -17,7 +19,8 @@ class Product(db.Model):
     price=Column(Float,default=0.0)
     cate_id=Column(Integer,ForeignKey(Category.id))
     image=Column(String(3000),default="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb4wMKcZskt8e9-ePQbZM7C0j6Jmq6MQfMOgWvIokYxA&s=10")
-
+    def __str__(self):
+        return self.name
 
 if __name__=='__main__':
     with app.app_context():
